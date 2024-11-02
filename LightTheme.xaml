@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="colorBackground" Color="White"/>
+    <SolidColorBrush x:Key="colorForeground" Color="Black"/>
+    <SolidColorBrush x:Key="colorBorder" Color="Gray"/>
+    <Style TargetType="Menu">
+        <Setter Property="Background" Value="{StaticResource colorBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource colorForeground}"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Padding" Value="5"/>
+    </Style>
+    <Style TargetType="MenuItem">
+        <Setter Property="Background" Value="{StaticResource colorBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource colorForeground}"/>
+        <Setter Property="Padding" Value="5"/>
+    </Style>
+    <Style TargetType="ToolBarTray">
+        <Setter Property="Background" Value="{StaticResource colorBackground}"/>
+    </Style>
+    <Style TargetType="ToolBar">
+        <Setter Property="Background" Value="{StaticResource colorBackground}"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Padding" Value="5"/>
+    </Style>
+    <Style TargetType="ComboBox" x:Key="ComboBoxStyle">
+        <Setter Property="Background" Value="{StaticResource colorBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource colorForeground}"/>
+    </Style>
+    <Style TargetType="ComboBoxItem">
+        <Setter Property="Background" Value="{StaticResource colorBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource colorForeground}"/>
+    </Style>
+    <Style TargetType="ToggleButton" x:Key="ToggleButtonStyle">
+        <Setter Property="BorderBrush" Value="{StaticResource colorBorder}"/>
+    </Style>
+    <Style TargetType="Label">
+        <Setter Property="Background" Value="{StaticResource colorBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource colorForeground}"/>
+    </Style>
+    <Style TargetType="TextBox">
+        <Setter Property="Background" Value="{StaticResource colorBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource colorForeground}"/>
+     </Style>
+</ResourceDictionary>
